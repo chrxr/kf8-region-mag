@@ -6,7 +6,7 @@ Python script to insert region mag areas to KF8 files
   * Requires Python3 and BeautifulSoup 4
   * Very early stages
   * Currently only inserts the json/div structure into html files
-  * Requires each textblock to be wrapped in a div with unique class that follows a pattern (currently "pg_#_mag_#" but could be anything)
+  * Requires each textblock to be wrapped in a div with unique class that follows a pattern (currently pg\_#\_mag\_# but could be anything)
   * Takes the unique class and makes it the source ID for the inner div, with the < a > tag.
   * Inserts ordinals going down the html tree. If this isn't write you may have to adjust.
  
