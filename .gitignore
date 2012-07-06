@@ -1,5 +1,5 @@
 <<<<<<< HEAD
-*.epub
+/__pycache__
 *.project
 *.pydevproject
 *.metadata
